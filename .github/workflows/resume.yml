@@ -13,21 +13,21 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Install LaTeX and required packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive texlive-latex-extra texlive-fonts-extra
+      # - name: Install LaTeX and required packages
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y texlive texlive-latex-extra texlive-fonts-extra
 
-      - name: Update LaTeX package database
-        run: sudo mktexlsr
-        
       - name: Remove PDF files
         run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
 
-      - name: Compile LaTeX document
-        run: pdflatex latex/main.tex
+      - name: Compile LaTeX file
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: latex/main.tex
+          texlive_version: 2024
 
       - name: Move and rename PDF
         run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_resume.pdf
