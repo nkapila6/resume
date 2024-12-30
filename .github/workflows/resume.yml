@@ -23,8 +23,8 @@ jobs:
       - name: Update LaTeX package database
         run: sudo mktexlsr
         
-      # - name: Remove PDF files
-      #   run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
+      - name: Remove PDF files
+        run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
 
       - name: Compile LaTeX document
         run: pdflatex main.tex
