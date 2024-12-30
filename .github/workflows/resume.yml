@@ -30,7 +30,7 @@ jobs:
         run: pdflatex main.tex
 
       - name: Move and rename PDF
-        run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_Resume.pdf
+        run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_resume.pdf
       
       - name: Update the index.html
         run: |
@@ -42,5 +42,5 @@ jobs:
           git config --global user.name "${{ secrets.USERNAME }}"
           git config --global user.email "${{ secrets.EMAIL }}"
           git add .
-          git commit -m "Add ${{ secrets.ACTOR }}_Resume.pdf"
+          git commit -m "Add ${{ secrets.ACTOR }}_resume.pdf"
           git push origin main
