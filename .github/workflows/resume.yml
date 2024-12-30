@@ -23,8 +23,8 @@ jobs:
       - name: Update LaTeX package database
         run: sudo mktexlsr
         
-      - name: Remove PDF files
-        run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
+      # - name: Remove PDF files
+      #   run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
 
       - name: Compile LaTeX document
         run: pdflatex main.tex
@@ -35,7 +35,7 @@ jobs:
       - name: Update the index.html
         run: |
           sed -E -i "s|github.com/([^/]+)/raw|github.com/${{ github.repository }}/raw|g" index.html
-          sed -E -i "s|main/([^_]+)_Resume|main/${{ secrets.ACTOR }}_Resume|g" index.html
+          sed -E -i "s|main/([^_]+)_resume|main/${{ secrets.ACTOR }}_resume|g" index.html
           
       - name: Commit and push PDF file
         run: |
