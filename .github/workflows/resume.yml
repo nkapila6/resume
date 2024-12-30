@@ -1,0 +1,46 @@
+name: Main.tex Workflow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.tex'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install LaTeX and required packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive texlive-latex-extra texlive-fonts-extra
+
+      - name: Update LaTeX package database
+        run: sudo mktexlsr
+        
+      - name: Remove PDF files
+        run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
+
+      - name: Compile LaTeX document
+        run: pdflatex main.tex
+
+      - name: Move and rename PDF
+        run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_Resume.pdf
+      
+      - name: Update the index.html
+        run: |
+          sed -E -i "s|github.com/([^/]+)/raw|github.com/${{ github.repository }}/raw|g" index.html
+          sed -E -i "s|main/([^_]+)_Resume|main/${{ secrets.ACTOR }}_Resume|g" index.html
+          
+      - name: Commit and push PDF file
+        run: |
+          git config --global user.name "${{ secrets.USERNAME }}"
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git add .
+          git commit -m "Add ${{ secrets.ACTOR }}_Resume.pdf"
+          git push origin main
