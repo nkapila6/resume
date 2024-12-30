@@ -13,7 +13,7 @@
 
 
 % Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here. 
-\PassOptionsToPackage{style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+% \PassOptionsToPackage{style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
 
 % Most commands and style definitions are in settings.sty.
 \usepackage{settings}
@@ -59,7 +59,16 @@
 % Change the item prefix marker if you want
 % \prefixmarker{$\diamond$}
 
-\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false,urlcolor=blue]{hyperref}
+%\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false,urlcolor=blue]{hyperref}
+
+% \usepackage[
+%   backend=biber,
+%   backref=true,
+%   backrefstyle=three,
+%   hyperref=true
+% ]{biblatex}
+
+\usepackage[breaklinks=true,letterpaper=true,colorlinks,urlcolor=blue]{hyperref}
 
 %% Photo is only shown if "fullonly" is included
 \includecomment{fullonly}
@@ -81,7 +90,7 @@
   \makefield{\faEnvelope[regular]}{\href{mailto:nikhilkapila11@gmail.com}{\texttt{nikhilkapila11@gmail.com}}}
   \makefield{\faGlobe}{\href{https://nkapila.me/}{\texttt{Technical Blog}}}
   \makefield{\faLinkedin}{\href{http://www.linkedin.com/in/nikhilkapila/}{\texttt{LinkedIn}}}
-  \makefield{{\scriptsize\simpleicon{github}}}{\!\href{https://github.com/nkapila6}{\texttt{nkapila6 | Github}}}
+  \makefield{\faGithub}{\!\href{https://github.com/nkapila6}{\texttt{nkapila6 | Github}}}
   \makefield{\faPhone}{\href{tel:00971503564790}{\texttt{+971 50 356 4790}}}
 }
 
