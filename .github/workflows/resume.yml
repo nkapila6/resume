@@ -27,7 +27,7 @@ jobs:
         run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
 
       - name: Compile LaTeX document
-        run: pdflatex main.tex
+        run: pdflatex latex/main.tex
 
       - name: Move and rename PDF
         run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_resume.pdf
