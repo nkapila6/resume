@@ -26,8 +26,9 @@ jobs:
       - name: Compile LaTeX file
         uses: xu-cheng/latex-action@v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-small:latest
           root_file: latex/main.tex
-          texlive_version: 2024
+          # texlive_version: 2024
 
       - name: Move and rename PDF
         run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_resume.pdf
