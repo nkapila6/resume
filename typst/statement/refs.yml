@@ -1,0 +1,70 @@
+CNNtention:
+  type: report
+  title: "{CNN}tention: Can {CNNs} learn better with Attention?"
+  author:
+    - Nikhil Kapila
+    - Julian Glattki
+    - Tejas Rathi
+  date: 2024-12-30
+  url:
+    value: https://arxiv.org/abs/2412.11657v3
+    # date: 2024-12-30
+
+matmulfree:
+  type: report
+  title: "Scalable MatMul-free Language Modeling"
+  date: 2024-06-18
+  author:
+  - name: Rui-Jie Zhu
+  - name: Yu Zhang
+  - name: Ethan Sifferman
+  - name: Tyler Sheaves
+  - name: Yiqiao Wang
+  - name: Dustin Richmond
+  - name: Peng Zhou
+  - name: Jason K. Eshraghian
+  url:
+    value: https://arxiv.org/abs/2406.02528
+
+origstyletransfer:
+  type: report
+  title: "A Neural Algorithm of Artistic Style"
+  date: 2015-08-26
+  author:
+    - Leon A. Gatys
+    - Alexander S. Ecker
+    - Matthias Bethge
+  url:
+    value: https://arxiv.org/abs/1508.06576v2
+
+jjstyletransfer:
+  type: report
+  title: "Perceptual Losses for Real-Time Style Transfer and Super-Resolution"
+  date: 2023-09-29
+  author:
+    - Justin Johnson
+    - Alexandre Alahi
+    - Li Fei-Fei
+  url:
+    value: https://arxiv.org/abs/1603.08155
+
+generspeech:
+  type: report
+  title: "GenerSpeech: Towards Style Transfer for Generalizable Out-Of-Domain Text-to-Speech"
+  date: 2022-10-12
+  author:
+    - Rongjie Huang
+    - Yi Ren
+    - Jinglin Liu
+    - Chenye Cui
+    - Zhou Zhao
+
+farsight:
+  type: report
+  title: "FarSight: Long-Term Disease Prediction Using Unstructured Clinical Nursing Notes"
+  date: 2021-07-01
+  author:
+    - Tushaar Gangavarapu
+    - G. Krishnan
+    - S. SowmyaKamath
+    - Jayakumar Jeganathan 
