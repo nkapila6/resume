@@ -110,7 +110,7 @@ I am passionate about optimizing and creating deep learning architectures. My in
   consistent: true
 )
 - GPA: 6.97 / 10.00
-- Relevant CS courses taken: Data Structures, Algorithms, Object-Oriented Programming, Computer Networks, Image Processing
+- Excelled in CS-related course work: Data Structures, Algorithms, Object-Oriented Programming, Computer Networks, Image Processing
 
 == Employment History
 
