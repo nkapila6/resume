@@ -76,16 +76,16 @@
 #summary
 
 == Research Interests
-My research interests lies in optimization of deep learning architectures, multimodal image and text models, 
-and generative image/speech models. 
-In optimization, I focus on techniques like knowledge distillation, neural architecture search, 
-and pruning to create smaller models that outperform their larger counterparts.
+I am passionate about optimizing and creating deep learning architectures. My interests extend to multimodal learning, exploring cross-modal similarities in image, text, and audio domains, and generative modeling using GANs and VAEs. I am also intrigued by inductive biases in neural networks and emerging approaches for AI in tabular data. My goal is to democratize AI by enabling efficient model deployment and fostering natural human-computer interaction.
+// My research interests lies in optimization of deep learning architectures, multimodal image and text models, 
+// and generative image/speech models. 
+// In optimization, I like to focus on techniques like knowledge distillation, neural architecture search, 
+// and pruning to create smaller models that outperform their larger counterparts.
 //I tried to do this with my recent
 //project #ref(<pubs>, supplement:[#link("https://arxiv.org/abs/2412.11657")[CNNtention] (as seen in page], form:"page")) 
 //where I augmented a few attention layers within a deep resnet and saw improvement in qualitative performance.
-
-I am further intrigued by cross-modal similarities. For example, adapting image style transfer to audio with the same approach of refining feature maps. 
-Models like CLIP show how contrastive learning aligns embeddings/latent space across modalities, and  the rise of foundation models shows how thoughtful architectural choices enable reasoning across text, images, audio, etc.
+// I am further intrigued by cross-modal similarities. For example, adapting image style transfer to audio with the same approach of refining feature maps. 
+// Models like CLIP show how contrastive learning aligns embeddings/latent space across modalities, and  the rise of foundation models shows how thoughtful architectural choices enable reasoning across text, images, audio, etc.
 
 == Education
 
@@ -97,10 +97,10 @@ Models like CLIP show how contrastive learning aligns embeddings/latent space ac
   consistent: true
 )
 - Current GPA: 4.00 / 4.00
-- Completed Coursework: Deep Learning, Machine Learning, Software Development Process, Knowledge-Based AI, Human-Computer Interaction
-- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose`] library and documentation used in the class.
+- Completed Coursework: Deep Learning, Research Work, Machine Learning, Software Development Process, Knowledge-Based AI, Human-Computer Interaction
 - Ongoing Coursework: Natural Language Processing, Big Data for Health (Spring 2025)
 - Upcoming Coursework (Summer/Fall 2025): TBC
+- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in the class.
 
 #edu(
   institution: "National Institute of Technology",
@@ -123,7 +123,8 @@ Models like CLIP show how contrastive learning aligns embeddings/latent space ac
 - Led the transition towards lighting and control systems from LED components which increased business value.
 - Designing and installation of lighting control systems. 
 - Collaborated with cross-functional teams to deliver customized control solutions.
-- Currently working on integrating AI features into our service offerings.
+- Currently working on integrating AI features into our service offerings:
+  - Trying to automate the commissioning process using Agents or similar.
 
 #work(
   title: "Graduate Researcher",
