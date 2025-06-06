@@ -75,8 +75,8 @@
 == Summary
 #summary
 
-== Research Interests
-I am passionate about optimizing and creating deep learning architectures. My interests extend to multimodal learning, exploring cross-modal similarities in image, text, and audio domains, and generative modeling using GANs and VAEs. I am also intrigued by inductive biases in neural networks and emerging approaches for AI in tabular data. My goal is to democratize AI by enabling efficient model deployment and fostering natural human-computer interaction.
+== Interests in Research Work
+I am passionate about optimizing and creating deep learning architectures. My current interests are in multimodal learning, exploring cross-modal similarities in image, text, and audio domains, and generative modeling using GANs and VAEs. I am also intrigued by inductive biases in neural networks and emerging approaches for AI in tabular data.
 // My research interests lies in optimization of deep learning architectures, multimodal image and text models, 
 // and generative image/speech models. 
 // In optimization, I like to focus on techniques like knowledge distillation, neural architecture search, 
@@ -97,9 +97,9 @@ I am passionate about optimizing and creating deep learning architectures. My in
   consistent: true
 )
 - Current GPA: 4.00 / 4.00
-- Completed Coursework: Deep Learning, Research Work, Machine Learning, Software Development Process, Knowledge-Based AI, Human-Computer Interaction
-- Ongoing Coursework: Natural Language Processing, Big Data for Health (Spring 2025)
-- Upcoming Coursework (Summer/Fall 2025): TBC
+- Completed Coursework: Deep Learning, Research Work, Machine Learning, Software Development Process, Knowledge-Based AI, Human-Computer Interaction, Natural Language Processing, Big Data for Health
+- Ongoing Coursework: Video Game Design (Summer 2025)
+- Upcoming Coursework (Fall 2025): TBA
 - `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in the class.
 
 #edu(
@@ -154,24 +154,12 @@ I am passionate about optimizing and creating deep learning architectures. My in
 - Developed simulations for quadrotor systems using MATLAB Simulink.
 - Analyzed mechanical systems leading to quadrotor design optimizations.
 
-== Research Work (Pre Prints) <pubs>
-- Ongoing for Big Data for Health - Long Term Disease (ICD-9) Prediction using Unstructured Clinical Notes
-  #link("https://github.com/AttentionSeekers/NLPVise/")[#fa-github() Github]
-
-- *Kapila, N.*, Glattki, J., & Rathi, T. (December 2024). <CNNtention>
-  #link("https://arxiv.org/abs/2412.11657")["CNNtention: Can CNNs do better with Attention?"] arXiv:2412.11657 [cs.CV]. 
-  #link("https://github.com/AttentionSeekers/CNNtention/")[#fa-github() Github]
-
-- *Kapila, N.* (July 2024). 
-  #link("https://nkapila.me/masters/mscs-research-work")["Training LSTMs on Building Genome 2 Data."]
-  #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github]
-
 == Skills
 
 #let skills = [
   *Languages*: Python, C, C++, MATLAB.
 
-  *Frameworks*: Experienced with PyTorch, ScikitLearn, NumPy/Numba, Pandas/Polars, Captum, Skorch, MLFlow.
+  *Frameworks*: Experienced with PyTorch, ScikitLearn, NumPy/Numba, Pandas/Polars, Captum, Skorch, MLFlow, FastAPI, etc.
   
   // *Machine Learning Techniques*: Deep Learning, Attention Mechanisms, Transformers, Large Language Model (LLM) Fine-tuning, Model Optimization.
   
@@ -184,38 +172,49 @@ I am passionate about optimizing and creating deep learning architectures. My in
 
 #skills
 
-== Coded Projects -- Open Source Contributions & Masters Work
+== Research Work (Pre Prints) <pubs>
+- *Kapila, N.* & Rathi, T. (Apr 2025) #link("https://raw.githubusercontent.com/AttentionSeekers/FarSightBERT/main/submission/bd4h_final_report.pdf")["FarSightBERT: Enhancing Embeddings for Long Term Disease Prediction"]
+  #link("https://github.com/AttentionSeekers/FarSightBERT")[#fa-github() Github]
+
+- *Kapila, N.*, Glattki, J., & Rathi, T. (December 2024). <CNNtention>
+  #link("https://arxiv.org/abs/2412.11657")["CNNtention: Can CNNs do better with Attention?"] arXiv:2412.11657 [cs.CV]. 
+  #link("https://github.com/AttentionSeekers/CNNtention/")[#fa-github() Github]
+
+- *Kapila, N.* (July 2024). 
+  #link("https://nkapila.me/masters/mscs-research-work")["Training LSTMs on Building Genome 2 Data."]
+  #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github]
+
+
+== Projects
 
 #project(
   name: "Deep Learning Projects",
   dates: "Fall 2024",
-  url: "https://github.com/AttentionSeekers/CNNtention",
+  // url: "https://github.com/AttentionSeekers/CNNtention",
 )
 - Developed FCNNs, CNNs, generative models, RNNs, LSTMs, and Transformers using NumPy (from scratch) and PyTorch
 - Designed and implemented the CNNtention project where we experimented with different types of attention layers in a deep ResNet.
 
 #project(
-  name: "LSTMs on BGD2 dataset",
-  dates: "Summer 2024",
-  url: "https://github.com/nkapila6/lstm-bgd2",
-)
-- Created a full end-to-end Machine Learning pipeline using PyTorch & Metaflow MLOps library during my research position.
-- Deployed using Docker
-
-#project(
   name: "Machine Learning Projects",
   dates: "Spring 2024",
-  url: "https://nkapila.me/masters/cs7641-review",
+  // url: "https://nkapila.me/masters/cs7641-review",
 )
 - Implemented ML algorithms, including classification/regression, clustering, dimensionality reduction, and reinforcement learning agents. Wrote highly technical reports on each of these topics.
 - Created a post on my technical blog detailing the adventures and learnings in this class.
 
 #project(
+  name: "Open Source Projects"
+)
+- #link("https://github.com/nkapila6/mcp-local-rag/")[*mcp-local-rag*]: A MCP server for Claude that allows you to perform web search locally without any API use.
+- #link("https://github.com/nkapila6/mcp-meme-sticky/")[*mcp-local-sticky*]: A MCP server for Claude that allows you to make memes and WhatsApp/Telegram stickers.
+
+#project(
   name: "Open Source Contributions",
 )
-- #link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*]: Contributing to `mlrose`, a Python library used in Georgia Tech's CS7641 Machine Learning class. 
-  Wrote the full #link("https://nkapila6.github.io/mlrose-ky/")[documentation] and added new features.
-- *Biscuit Code Editor*: Added a feature during my free time as a part of Hackoctober Fest 2024
+- #link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*]: Contributing to `mlrose`, a Python library used in Georgia Tech's CS7641 Machine Learning class. Wrote the full #link("https://nkapila6.github.io/mlrose-ky/")[documentation] and added new features.
+- #link("https://github.com/probabl-ai/skore")[*skore*]: Added a new features, tests, updated documentation.
+- #link("https://github.com/tomlin7/biscuit")[*Biscuit Code Editor*]: Added a feature during my free time as a part of Hackoctober Fest 2024
 - *Full List* of projects can be viewed on my GitHub
 
 // #project(
@@ -257,5 +256,4 @@ I am passionate about optimizing and creating deep learning architectures. My in
 
 == References
 
-Can be viewed on LinkedIn
-Others available on request
+Can be viewed on LinkedIn, Others available on request
