@@ -40,7 +40,7 @@
   personal-info-position: left,
 )
 
-#let email = [#link("mailto:nkapila6@gatech.edu")[#fa-envelope() nkapila6\@gatech.edu]]
+#let email = [#link("mailto:info@nkapila.me")[#fa-envelope() info\@nkapila.me]]
 #let phone = [#fa-phone()\(+971)503564790]
 #let github = [#link("https://github.com/nkapila6")[#fa-github() nkapila6]]
 #let linkedin = [#link("https://linkedin.com/in/nikhilkapila")[#fa-linkedin() nikhilkapila]]
