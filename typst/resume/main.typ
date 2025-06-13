@@ -75,8 +75,9 @@
 == Summary
 #summary
 
-== Interests in Research Work
-I am passionate about optimizing and creating deep learning architectures. My current interests are in multimodal learning, exploring cross-modal similarities in image, text, and audio domains, and generative modeling using GANs and VAEs. I am also intrigued by inductive biases in neural networks and emerging approaches for AI in tabular data.
+// == Interests in Research Work
+// I am passionate about optimizing and creating deep learning architectures. My current interests are in multimodal learning, exploring cross-modal similarities in image, text, and audio domains, and generative modeling using GANs and VAEs. I am also intrigued by inductive biases in neural networks and emerging approaches for AI in tabular data.
+
 // My research interests lies in optimization of deep learning architectures, multimodal image and text models, 
 // and generative image/speech models. 
 // In optimization, I like to focus on techniques like knowledge distillation, neural architecture search, 
@@ -154,8 +155,6 @@ I am passionate about optimizing and creating deep learning architectures. My cu
 - Developed simulations for quadrotor systems using MATLAB Simulink.
 - Analyzed mechanical systems leading to quadrotor design optimizations.
 
-== Skills
-
 #let skills = [
   *Languages*: Python, C, C++, MATLAB.
 
@@ -163,14 +162,12 @@ I am passionate about optimizing and creating deep learning architectures. My cu
   
   // *Machine Learning Techniques*: Deep Learning, Attention Mechanisms, Transformers, Large Language Model (LLM) Fine-tuning, Model Optimization.
   
-  *Tools*: HuggingFace, GitHub, Git VCS, DIALux, AutoCAD.
+  *Tools*: HuggingFace, GitHub, Git VCS, Docker, GitHub CI/CD, DIALux, AutoCAD.
   
   *Research and Development*: Academic Research, Lit Review, Market Review, Technical Documentation, Experiment Design, Data Pipeline Implementation.
   
   *Soft Skills*: Collaboration in Cross-Functional Teams, Technical Communication, Problem-Solving, Project Management.
 ]
-
-#skills
 
 == Research Work (Pre Prints) <pubs>
 - *Kapila, N.* & Rathi, T. (Apr 2025) #link("https://raw.githubusercontent.com/AttentionSeekers/FarSightBERT/main/submission/bd4h_final_report.pdf")["FarSightBERT: Enhancing Embeddings for Long Term Disease Prediction"]
@@ -184,38 +181,53 @@ I am passionate about optimizing and creating deep learning architectures. My cu
   #link("https://nkapila.me/masters/mscs-research-work")["Training LSTMs on Building Genome 2 Data."]
   #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github]
 
+// == Projects
 
-== Projects
+// #project(
+//   name: "Deep Learning Projects",
+//   dates: "Fall 2024",
+//   // url: "https://github.com/AttentionSeekers/CNNtention",
+// )
+// - Developed FCNNs, CNNs, generative models, RNNs, LSTMs, and Transformers using NumPy (from scratch) and PyTorch
+// - Designed and implemented the CNNtention project where we experimented with different types of attention layers in a deep ResNet.
 
-#project(
-  name: "Deep Learning Projects",
-  dates: "Fall 2024",
-  // url: "https://github.com/AttentionSeekers/CNNtention",
+// #project(
+//   name: "Machine Learning Projects",
+//   dates: "Spring 2024",
+//   // url: "https://nkapila.me/masters/cs7641-review",
+// )
+// - Implemented ML algorithms, including classification/regression, clustering, dimensionality reduction, and reinforcement learning agents. Wrote highly technical reports on each of these topics.
+// - Created a post on my technical blog detailing the adventures and learnings in this class.
+
+== Open Source work
+The list below may be out of date. Click for #link("https://github.com/nkapila6?tab=repositories")[Updated list of projects] and #link("https://github.com/search?q=is%3Apr%20author%3Ankapila6&type=pullrequests")[Open Source Contributions].
+#table(
+  columns: (auto, auto, auto),
+  align: horizon,
+  table.header(
+    [*Project*], [*Type*], [*Contribution*]
+  ),
+  [#link("https://github.com/probabl-ai/skore")[*skore*] \ the scikit-learn sidekick],[Open Source Contribution],[Added new features for `train_test_split`, documentation and test cases.],
+  [#link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*] \ Random optimization library used in \ Georgia Tech's Machine Learning class],[Open Source Contribution],
+  [Added new features such as ability to parallelize experimentation, bug fixes, better documentation to help students understand how to conduct experiments],
+  [#link("https://github.com/tomlin7/biscuit")[*biscuit*] \ code editor in python], [Open Source Contribution], [Added relative line numbering as a part of `Hacktoberfest 2024`.],
+  [#link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], ["primitive" RAG-like web search "model context protocol (MCP)" server that runs locally. ✨ no APIs ✨],
+  [#link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], [Create AI generated memes using MCP Meme Sticky. Can converted generated memes into stickers for Telegram or WhatsApp (WA coming soon). ✨ no APIs required ✨]
 )
-- Developed FCNNs, CNNs, generative models, RNNs, LSTMs, and Transformers using NumPy (from scratch) and PyTorch
-- Designed and implemented the CNNtention project where we experimented with different types of attention layers in a deep ResNet.
 
-#project(
-  name: "Machine Learning Projects",
-  dates: "Spring 2024",
-  // url: "https://nkapila.me/masters/cs7641-review",
-)
-- Implemented ML algorithms, including classification/regression, clustering, dimensionality reduction, and reinforcement learning agents. Wrote highly technical reports on each of these topics.
-- Created a post on my technical blog detailing the adventures and learnings in this class.
+// #project(
+//   name: "Open Source Projects"
+// )
+// - #link("https://github.com/nkapila6/mcp-local-rag/")[*mcp-local-rag*]: A MCP server for Claude that allows you to perform web search locally without any API use.
+// - #link("https://github.com/nkapila6/mcp-meme-sticky/")[*mcp-local-sticky*]: A MCP server for Claude that allows you to make memes and WhatsApp/Telegram stickers.
 
-#project(
-  name: "Open Source Projects"
-)
-- #link("https://github.com/nkapila6/mcp-local-rag/")[*mcp-local-rag*]: A MCP server for Claude that allows you to perform web search locally without any API use.
-- #link("https://github.com/nkapila6/mcp-meme-sticky/")[*mcp-local-sticky*]: A MCP server for Claude that allows you to make memes and WhatsApp/Telegram stickers.
-
-#project(
-  name: "Open Source Contributions",
-)
-- #link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*]: Contributing to `mlrose`, a Python library used in Georgia Tech's CS7641 Machine Learning class. Wrote the full #link("https://nkapila6.github.io/mlrose-ky/")[documentation] and added new features.
-- #link("https://github.com/probabl-ai/skore")[*skore*]: Added a new features, tests, updated documentation.
-- #link("https://github.com/tomlin7/biscuit")[*Biscuit Code Editor*]: Added a feature during my free time as a part of Hackoctober Fest 2024
-- *Full List* of projects can be viewed on my GitHub
+// #project(
+//   name: "Open Source Contributions",
+// )
+// - #link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*]: Contributing to `mlrose`, a Python library used in Georgia Tech's CS7641 Machine Learning class. Wrote the full #link("https://nkapila6.github.io/mlrose-ky/")[documentation] and added new features.
+// - #link("https://github.com/probabl-ai/skore")[*skore*]: Added a new features, tests, updated documentation.
+// - #link("https://github.com/tomlin7/biscuit")[*Biscuit Code Editor*]: Added a feature during my free time as a part of Hackoctober Fest 2024
+// - 
 
 // #project(
 //   name: "RPM Problems Solver",
@@ -232,7 +244,11 @@ I am passionate about optimizing and creating deep learning architectures. My cu
 // - Built a data-persistent Android application to compare and rank jobs based on multiple parameters
 // - Developed during the Software Development Process (SDP) course
 
+== Skills
+#skills
+
 == Certifications -- Listing Recent 3 Only
+*Up to date list* can be viewed on my LinkedIn.
 
 - #certificates(
   name: "Fundamentals of Deep Learning",
@@ -252,8 +268,6 @@ I am passionate about optimizing and creating deep learning architectures. My cu
   date: "2024",
   url: "https://www.coursera.org/account/accomplishments/verify/W6DPNVH4V88P",
 )
-- *Full & Detailed List* can be viewed at my LinkedIn
 
 == References
-
-Can be viewed on LinkedIn, Others available on request
+Can be viewed on LinkedIn.
