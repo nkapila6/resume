@@ -1,4 +1,5 @@
-#import "@preview/basic-resume:0.2.4": *
+// #import "@preview/basic-resume:0.2.4": *
+#import "template.typ": *
 #import "@preview/fontawesome:0.5.0": *
 #set page(numbering: "1")
 #set heading(numbering: "1.")
@@ -64,10 +65,8 @@
 // Summary
 #let summary = [
   Skilled Machine Learning Practitioner with hands-on 
-  experience with Machine Learning and Deep Learning techniques 
-  coupled with experience in lighting and lighting control systems. 
-  Proven ability to design and deploy AI models, optimize ML pipelines, 
-  and implement smart control solutions. 
+  experience with Machine Learning and Deep Learning techniques. 
+  Proven ability to design and deploy AI models, optimize ML pipelines. Experienced in lighting and lighting control systems. 
   // Authored pre-prints on attention mechanisms in CNNs, 
   // bridging AI research with real-world applications.
 ]
@@ -93,22 +92,21 @@
 #edu(
   institution: "Georgia Institute of Technology",
   location: "Atlanta, GA",
-  dates: "Batch of Fall 2025", // dates-helper(start-date: "Jan 2023", end-date: "Present"),
+  dates: "Batch of 2025", // dates-helper(start-date: "Jan 2023", end-date: "Present"),
   degree: "Master of Science in Computer Science - Artificial Intelligence (OMSCS Program)",
   consistent: true
 )
-- Current GPA: 4.00 / 4.00
-- AI relevant coursework: Machine Learning, Deep Learning, Natural Lang Processing, Research Work, Big Data for Health
+- CGPA: 4.00 / 4.00
+- AI related courses: Machine Learning, Deep Learning, Natural Language Processing, Big Data for Health
 
 
 #edu(
   institution: "National Institute of Technology",
   location: "New Delhi, India",
-  dates: dates-helper(start-date: "2014", end-date: "2018"),
+  dates: "Batch of 2018", //dates-helper(start-date: "2014", end-date: "2018"),
   degree: "Bachelors of Technology in Electronics and Communication Engineering",
   consistent: true
 )
-- GPA: 6.97 / 10.00
 - Excelled in CS-related course work: Data Structures, Algorithms, Object-Oriented Programming, Computer Networks, Image Processing
 
 == Work Experience
@@ -119,11 +117,11 @@
   location: "United Arab Emirates",
   dates: dates-helper(start-date: "Jun 2018", end-date: "Present"),
 )
-- Led the transition towards lighting and control systems from LED components which increased business value.
-- Designing and installation of lighting control systems. 
+- Led the transition towards lighting & control systems which increased business value and market share.
+// - Designing and installation of lighting control systems. 
 - Collaborated with cross-functional teams to deliver customized control solutions.
+// - Trying to automate the commissioning process using Agents or similar.
 - Currently working on integrating AI features into our service offerings.
-- Trying to automate the commissioning process using Agents or similar.
 
 #work(
   title: "Graduate Researcher",
@@ -132,52 +130,40 @@
   dates: dates-helper(start-date: "May 2024", end-date: "Aug 2024"),
 )
 - Graduate researcher, a part of the #link("https://sites.gatech.edu/human-augmented-analytics-group/alumni/")[Human-Augmented Analytics Group].
-- Implemented a full MLOps pipeline and researched whether LSTM models could be democratized on different building data. Published findings and models on HuggingFace Spaces and Github.
+- Built MLOps pipeline and researched democratizing LSTM models across building datasets. | #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github] | #link("https://www.youtube.com/watch?v=rGKhB1wkei4")[#fa-youtube() YouTube]
 
-#work(
-  title: "R&D Trainee",
-  company: "Helvar Oy Ab",
-  location: "Finland",
-  dates: dates-helper(start-date: "Aug 2019", end-date: "Sept 2019"),
-)
-- Evaluated intelligent wireless nodes for lighting control systems.
-- Created technical documentation for AC-DC converters in LED lighting.
-- Presented market research findings for Middle Eastern lighting trends.
+// #work(
+//   title: "R&D Trainee",
+//   company: "Helvar Oy Ab",
+//   location: "Finland",
+//   dates: dates-helper(start-date: "Aug 2019", end-date: "Sept 2019"),
+// )
+// - Evaluated intelligent wireless nodes for lighting control systems.
+// - Created technical documentation for AC-DC converters in LED lighting.
+// - Presented market research findings for Middle Eastern lighting trends.
 
-#work(
-  title: "Research Intern",
-  company: "Indian Institute of Technology, Delhi",
-  location: "New Delhi, India",
-  dates: dates-helper(start-date: "2017", end-date: "2018"),
-)
-- Developed simulations for quadrotor systems using MATLAB Simulink.
-- Analyzed mechanical systems leading to quadrotor design optimizations.
+// #work(
+//   title: "Research Intern",
+//   company: "Indian Institute of Technology, Delhi",
+//   location: "New Delhi, India",
+//   dates: dates-helper(start-date: "2017", end-date: "2018"),
+// )
+// - Developed simulations for quadrotor systems using MATLAB Simulink.
+// - Analyzed mechanical systems leading to quadrotor design optimizations.
 
 #let skills = [
-  *Languages*: Python, C, C++, MATLAB, etc.
-
-  *Frameworks*: Experienced with PyTorch, ScikitLearn, NumPy/Numba, Pandas/Polars, Captum, Skorch, MLFlow, FastAPI, etc.
-  
+  - *Languages*: Python, C, C++, MATLAB
+  - *Frameworks*: PyTorch/TensorFlow, SKLearn, Ollama, NumPy, Pandas/Polars, MLFlow, FastAPI, MCP servers
   // *Machine Learning Techniques*: Deep Learning, Attention Mechanisms, Transformers, Large Language Model (LLM) Fine-tuning, Model Optimization.
-  
-  *Tools*: HuggingFace, GitHub, Git VCS, Docker, GitHub CI/CD, DIALux, AutoCAD.
-  
-  *Research and Development*: Academic Research, Lit Review, Market Review, Technical Documentation, Experiment Design, Data Pipeline Implementation.
-  
-  *Soft Skills*: Collaboration in Cross-Functional Teams, Technical Communication, Problem-Solving, Project Management.
+  - *Tools*: HuggingFace, GitHub, Git VCS, Docker, GitHub Actions, AutoCAD | *Platforms*: Linux/Windows/macOS
+  - *Research and Development*: Academic Research, Lit Review, Market Review, Technical Documentation //, Experiment Design, Data Pipeline Implementation.
+  // - *Soft Skills*: Collaboration in Cross-Functional Teams, Technical Communication, Problem-Solving, Project Management.
 ]
 
-== Research Work (Pre Prints) <pubs>
-- *Kapila, N.* & Rathi, T. (Apr 2025) #link("https://raw.githubusercontent.com/AttentionSeekers/FarSightBERT/main/submission/bd4h_final_report.pdf")["FarSightBERT: Enhancing Embeddings for Long Term Disease Prediction"]
-  #link("https://github.com/AttentionSeekers/FarSightBERT")[#fa-github() Github]
-
-- *Kapila, N.*, Glattki, J., & Rathi, T. (December 2024). <CNNtention>
-  #link("https://arxiv.org/abs/2412.11657")["CNNtention: Can CNNs do better with Attention?"] arXiv:2412.11657 [cs.CV]. 
-  #link("https://github.com/AttentionSeekers/CNNtention/")[#fa-github() Github]
-
-- *Kapila, N.* (July 2024). 
-  #link("https://nkapila.me/masters/mscs-research-work")["Training LSTMs on Building Genome 2 Data."]
-  #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github]
+== Research Work
+- #link("https://raw.githubusercontent.com/AttentionSeekers/FarSightBERT/main/submission/bd4h_final_report.pdf")[*FarSightBERT: Enhancing Embeddings for Long Term Disease Prediction (04/25)*] | #link("https://github.com/AttentionSeekers/FarSightBERT")[#fa-github() Github]
+- #link("https://arxiv.org/abs/2412.11657")[*CNNtention: Can CNNs do better with Attention? (12/24)*] | #link("https://github.com/AttentionSeekers/CNNtention/")[#fa-github() Github]
+- #link("https://nkapila.me/masters/mscs-research-work")[*Training LSTMs on Building Genome 2 Data (07/24)*] | #link("https://github.com/nkapila6/lstm-bgd2")[#fa-github() Github]
 
 // == Projects
 
@@ -197,25 +183,29 @@
 // - Implemented ML algorithms, including classification/regression, clustering, dimensionality reduction, and reinforcement learning agents. Wrote highly technical reports on each of these topics.
 // - Created a post on my technical blog detailing the adventures and learnings in this class.
 
-== Volunteer Work
-- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in the class.
+== Volunteering
+- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in class.
 - OMSCS UAE Chapterhead: created the UAE chapter and grew it to \~40 people from a group of 3.
 
-== Open Source work
-The list below may be out of date. Click for #link("https://github.com/nkapila6?tab=repositories")[Updated list of projects] and #link("https://github.com/search?q=is%3Apr%20author%3Ankapila6&type=pullrequests")[Open Source Contributions].
-#table(
-  columns: (auto, auto, auto),
-  align: horizon,
-  table.header(
-    [*Project*], [*Type*], [*Contribution*]
-  ),
-  [#link("https://github.com/probabl-ai/skore")[*skore*] \ the scikit-learn sidekick],[Open Source Contribution],[Added new features for `train_test_split`, documentation and test cases.],
-  [#link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*] \ Random optimization library used in \ Georgia Tech's Machine Learning class],[Open Source Contribution],
-  [Added new features such as ability to parallelize experimentation, bug fixes, better documentation to help students understand how to conduct experiments],
-  [#link("https://github.com/tomlin7/biscuit")[*biscuit*] \ code editor in python], [Open Source Contribution], [Added relative line numbering as a part of `Hacktoberfest 2024`.],
-  [#link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], ["primitive" RAG-like web search "model context protocol (MCP)" server that runs locally. No APIs required.],
-  [#link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], [Create AI generated memes and convert them into stickers for Telegram or WhatsApp. No APIs required.]
-)
+== Projects
+I am actively #link("https://github.com/nkapila6?tab=repositories")[*building side projects*] and contributing to #link("https://github.com/search?q=is%3Apr%20author%3Ankapila6%20%20is%3Amerged&type=pullrequests")[*open source repositories*] focused on AI tooling.
+- #link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ "primitive" RAG-like web search "model context protocol (MCP)" server that runs locally | *Language*: Python
+- #link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ create AI generated memes and convert them into stickers for Telegram or WhatsApp | *Language*: Python
+
+
+// #table(
+//   columns: (auto, auto, auto),
+//   align: horizon,
+//   table.header(
+//     [*Project*], [*Type*], [*Contribution*]
+//   ),
+//   [#link("https://github.com/probabl-ai/skore")[*skore*] \ the scikit-learn sidekick],[Open Source Contribution],[Added new features for `train_test_split`, documentation and test cases.],
+//   [#link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*] \ Random optimization library used in \ Georgia Tech's Machine Learning class],[Open Source Contribution],
+//   [Added new features such as ability to parallelize experimentation, bug fixes, better documentation to help students understand how to conduct experiments],
+//   [#link("https://github.com/tomlin7/biscuit")[*biscuit*] \ code editor in python], [Open Source Contribution], [Added relative line numbering as a part of `Hacktoberfest 2024`.],
+//   [#link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], ["primitive" RAG-like web search "model context protocol (MCP)" server that runs locally. No APIs required.],
+//   [#link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], [Create AI generated memes and convert them into stickers for Telegram or WhatsApp. No APIs required.]
+// )
 
 // #project(
 //   name: "Open Source Projects"
@@ -250,30 +240,10 @@ The list below may be out of date. Click for #link("https://github.com/nkapila6?
 #skills
 
 == Hackathon and talks
-- Won 2nd place at #link("https://dubai.aitinkerers.org/p/ai-tinkerers-dubai-hackathon-may-2025-powered-by-couchbase")[AI Tinkerers - Dubai Hackathon - May 2025 - Powered by Couchbase!]
 - Gave a talk on my MCP server projects at #link("https://dubai.aitinkerers.org/p/ai-tinkerers-dubai-meetup-june-2025-demo-day")[AI Tinkerers Dubai Meetup – June 2025 Demo Day]
 
-== Certifications -- Listing Recent 3 Only
-*Up to date list* can be viewed on my LinkedIn.
-
-- #certificates(
-  name: "Fundamentals of Deep Learning",
-  issuer: "Nvidia",
-  date: "2024",
-  url: "https://learn.nvidia.com/certificates?id=0x3zAbT6TfilxUwD_kMgaA",
-)
-- #certificates(
-  name: "Machine Learning with Python",
-  issuer: "IBM",
-  date: "2024",
-  url: "https://www.credly.com/badges/88522d33-bcf6-4aca-ae8c-21a58a68a594/print",
-)
-- #certificates(
-  name: "Machine Learning Foundations: A Case Study Approach",
-  issuer: "University of Washington",
-  date: "2024",
-  url: "https://www.coursera.org/account/accomplishments/verify/W6DPNVH4V88P",
-)
-
-== References
-Can be viewed on LinkedIn.
+== Awards & Certifications
+- Won 2nd place at #link("https://dubai.aitinkerers.org/p/ai-tinkerers-dubai-hackathon-may-2025-powered-by-couchbase")[*AI Tinkerers - Dubai Hackathon - May 2025*]
+- #link("https://learn.nvidia.com/certificates?id=0x3zAbT6TfilxUwD_kMgaA")[*Fundamentals of Deep Learning*], NVIDIA (12/2024)
+- #link("https://learn.nvidia.com/certificates?id=0x3zAbT6TfilxUwD_kMgaA")[*Machine Learning with Python*], IBM (04/2024)
+- #link("https://www.coursera.org/account/accomplishments/verify/W6DPNVH4V88P")[*Machine Learning Foundations: A Case Study Approach*], University of Washington (01/2024)
