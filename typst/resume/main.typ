@@ -93,15 +93,13 @@
 #edu(
   institution: "Georgia Institute of Technology",
   location: "Atlanta, GA",
-  dates: dates-helper(start-date: "Jan 2023", end-date: "Present"),
+  dates: "Batch of Fall 2025", // dates-helper(start-date: "Jan 2023", end-date: "Present"),
   degree: "Master of Science in Computer Science - Artificial Intelligence (OMSCS Program)",
   consistent: true
 )
 - Current GPA: 4.00 / 4.00
-- Completed Coursework: Deep Learning, Research Work, Machine Learning, Software Development Process, Knowledge-Based AI, Human-Computer Interaction, Natural Language Processing, Big Data for Health
-- Ongoing Coursework: Video Game Design (Summer 2025)
-- Upcoming Coursework (Fall 2025): TBA
-- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in the class.
+- AI relevant coursework: Machine Learning, Deep Learning, Natural Lang Processing, Research Work, Big Data for Health
+
 
 #edu(
   institution: "National Institute of Technology",
@@ -113,7 +111,7 @@
 - GPA: 6.97 / 10.00
 - Excelled in CS-related course work: Data Structures, Algorithms, Object-Oriented Programming, Computer Networks, Image Processing
 
-== Employment History
+== Work Experience
 
 #work(
   title: "Technical Engineer",
@@ -124,8 +122,8 @@
 - Led the transition towards lighting and control systems from LED components which increased business value.
 - Designing and installation of lighting control systems. 
 - Collaborated with cross-functional teams to deliver customized control solutions.
-- Currently working on integrating AI features into our service offerings:
-  - Trying to automate the commissioning process using Agents or similar.
+- Currently working on integrating AI features into our service offerings.
+- Trying to automate the commissioning process using Agents or similar.
 
 #work(
   title: "Graduate Researcher",
@@ -156,7 +154,7 @@
 - Analyzed mechanical systems leading to quadrotor design optimizations.
 
 #let skills = [
-  *Languages*: Python, C, C++, MATLAB.
+  *Languages*: Python, C, C++, MATLAB, etc.
 
   *Frameworks*: Experienced with PyTorch, ScikitLearn, NumPy/Numba, Pandas/Polars, Captum, Skorch, MLFlow, FastAPI, etc.
   
@@ -199,6 +197,10 @@
 // - Implemented ML algorithms, including classification/regression, clustering, dimensionality reduction, and reinforcement learning agents. Wrote highly technical reports on each of these topics.
 // - Created a post on my technical blog detailing the adventures and learnings in this class.
 
+== Volunteer Work
+- `Unofficial` TA for Georgia Tech's Machine Learning class. Maintaining #link("https://github.com/knakamura13/mlrose-ky")[`mlrose-ky`] library and documentation used in the class.
+- OMSCS UAE Chapterhead: created the UAE chapter and grew it to \~40 people from a group of 3.
+
 == Open Source work
 The list below may be out of date. Click for #link("https://github.com/nkapila6?tab=repositories")[Updated list of projects] and #link("https://github.com/search?q=is%3Apr%20author%3Ankapila6&type=pullrequests")[Open Source Contributions].
 #table(
@@ -211,8 +213,8 @@ The list below may be out of date. Click for #link("https://github.com/nkapila6?
   [#link("https://github.com/knakamura13/mlrose-ky")[*mlrose-ky*] \ Random optimization library used in \ Georgia Tech's Machine Learning class],[Open Source Contribution],
   [Added new features such as ability to parallelize experimentation, bug fixes, better documentation to help students understand how to conduct experiments],
   [#link("https://github.com/tomlin7/biscuit")[*biscuit*] \ code editor in python], [Open Source Contribution], [Added relative line numbering as a part of `Hacktoberfest 2024`.],
-  [#link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], ["primitive" RAG-like web search "model context protocol (MCP)" server that runs locally. ✨ no APIs ✨],
-  [#link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], [Create AI generated memes using MCP Meme Sticky. Can converted generated memes into stickers for Telegram or WhatsApp (WA coming soon). ✨ no APIs required ✨]
+  [#link("https://github.com/nkapila6/mcp-local-rag")[*mcp-local-rag*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], ["primitive" RAG-like web search "model context protocol (MCP)" server that runs locally. No APIs required.],
+  [#link("https://github.com/nkapila6/mcp-meme-sticky")[*mcp-meme-sticky*] \ Model Context Protocol (MCP) server listed on #link("https://github.com/modelcontextprotocol/servers")[`MCP servers official repo`]], [Open Source Project], [Create AI generated memes and convert them into stickers for Telegram or WhatsApp. No APIs required.]
 )
 
 // #project(
@@ -246,6 +248,10 @@ The list below may be out of date. Click for #link("https://github.com/nkapila6?
 
 == Skills
 #skills
+
+== Hackathon and talks
+- Won 2nd place at #link("https://dubai.aitinkerers.org/p/ai-tinkerers-dubai-hackathon-may-2025-powered-by-couchbase")[AI Tinkerers - Dubai Hackathon - May 2025 - Powered by Couchbase!]
+- Gave a talk on my MCP server projects at #link("https://dubai.aitinkerers.org/p/ai-tinkerers-dubai-meetup-june-2025-demo-day")[AI Tinkerers Dubai Meetup – June 2025 Demo Day]
 
 == Certifications -- Listing Recent 3 Only
 *Up to date list* can be viewed on my LinkedIn.
